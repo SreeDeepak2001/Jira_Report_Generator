@@ -1,0 +1,19 @@
+<flatirons>
+<projects>
+    <project>
+        <ID></ID>
+        <report_time_config>            <!--report_time_config = [1-99] (1 = 1 day)-->
+            <Critical></Critical>
+            <Severe>5</Severe>
+            <Moderate>10</Moderate>
+            <Minor></Minor>
+            <MoreInformation></MoreInformation>
+        </report_time_config>
+        <comment_config>all</comment_config>   <!--comment_config = [internal,external,all]-->
+        <sender>
+            <mailID></mailID>
+        </sender>
+        <logger>warning</logger>    <!--logger = [DEBUG,INFO,WARNING,CRITICAL,ERROR] -->
+    </project>
+</projects>
+</flatirons>
